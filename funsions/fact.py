@@ -8,12 +8,20 @@
 
 # fact()
 
-def factorial(num):
-    fact = 1
-    for n in range(num,1,-1):
-        fact *= n
-    print(f'{num}! = {fact}')\
+# def factorial(num):
+#     fact = 1
+#     for n in range(num,1,-1):
+#         fact *= n
+#     print(f'{num}! = {fact}')\
 
-factorial(5)
-factorial(8)
-factorial(13)
+# factorial(5)
+# factorial(8)
+# factorial(13)
+
+def factorial(num):
+    if num == 1 or num == 0:
+        return 1
+    return num * factorial(num - 1)
+
+num = int(input('Enter a number: '))
+print(factorial(num))
