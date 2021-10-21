@@ -1,7 +1,10 @@
+""" Basic Function of an Addition operation"""
 def add():
+    print(num1, num)
     return num1 + num
-
-
+    
+    
+""" This function returns the factorial of a given number"""
 def strong_op(num):
     res = 0
     while num:
@@ -13,6 +16,7 @@ def strong_op(num):
         res += fact
     return res
 
+
 def factorial(num):
     res = int()
     while num:
@@ -20,11 +24,16 @@ def factorial(num):
         num //= 10
     return res
 
+
+"""This function returns the boolean value whether the number is strong or not"""
 def is_strong(num)-> bool:
     if num ==strong_op(num):
         return True
     return False
 
+
+"""This function compares the count of the strong numbers with,
+ the given upper limit of the strong number"""
 def strong_serie(upper):
     count = int()
     num =1
@@ -33,6 +42,7 @@ def strong_serie(upper):
             print(f'{num} is a strong number')
             count += 1
         num += 1
+    print(count)
 
 upper = int(input('Enter the upper limit: '))
 strong_serie(upper)
