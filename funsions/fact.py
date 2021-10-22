@@ -1,9 +1,8 @@
 # def fact():
 #     num = int(input('enter a num: '))
 #     res = int(1)
-
 #     for i in range(num,1 ,-1):
-#         res ;*= i
+#         res *= i
 #     print(f'The factorial of a number{num} is {res}')
 
 # fact()
@@ -12,7 +11,7 @@
 #     fact = 1
 #     for n in range(num,1,-1):
 #         fact *= n
-#     print(f'{num}! = {fact}')\
+#     print(f'{num}! = {fact}')
 
 # factorial(5)
 # factorial(8)
