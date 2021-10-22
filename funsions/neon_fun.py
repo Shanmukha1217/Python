@@ -6,9 +6,9 @@ def neon (num) :
     sum = 0
     while (square != 0) : 
         sum = sum + (square % 10)
-        square = square // 10
-    c = (sum == num)
-    return c
+        square //= 10
+    res = (sum == num)
+    return res
 
 i = lower
 print ("Neon numbers between",lower,"and",upper,"are :")
