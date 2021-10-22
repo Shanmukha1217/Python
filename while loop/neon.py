@@ -3,14 +3,14 @@
 
 # num = int(input('Enter a num: '))
 
-# square = num * num
-# temp = square
-# res=int()
+square = num * num
+temp = square
+res=int()
 
-# while temp:
-#     last_digit = temp % 10
-#     res += last_digit
-#     temp //= 10
+while temp:
+    last_digit = temp % 10
+    res += last_digit
+    temp //= 10
 
 # if res == num:
 #     print(f'number = {num} and result =  {res} are same so its Neon number ')
